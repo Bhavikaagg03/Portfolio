@@ -1,0 +1,361 @@
+@import 'utilities.css';
+
+:root{
+  --primary: rgb(197, 79, 197);
+  --dark: rgb(53, 50, 50);
+  --pure: rgb(138, 37, 233);
+  --ternary: rgb(113, 108, 108);
+  --light: lightgrey;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+}
+header{
+  background: var(--dark);
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 80% 90%, 0 100%);
+}
+
+.container{
+  max-width: 1152px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.name{
+  color: var(--pure);
+  font-size: 1.5rem;
+}
+
+.name:hover{
+  color: var(--light);
+  transition: all .3s ease;
+  font-style: italic;
+}
+
+header nav .right a{
+  color: var(--light);
+  text-decoration: none;
+  margin-right: 2rem;
+  text-transform: uppercase;
+  transition: all .3s ease;
+  cursor: pointer;
+}
+
+header nav .right a:hover{
+  color: var(--pure);
+  border-bottom: groove;
+  border-color: var(--ternary);
+}
+
+header nav{
+  padding: 2rem 0;
+}
+
+.hero{
+  padding: 3rem 0;;
+}
+
+.hero .left img{
+  width: 300px;
+}
+
+.hero .right{
+  color: var(--light);
+}
+
+.hero .right h6{
+  font-size: 1.6rem;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+}
+
+.hero .right h1{
+  font-size: 4rem;
+  font-weight: 100;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+}
+
+.hero .right h1 span{
+  color: var(--primary);
+}
+
+.hero .right p{
+  line-height: 1.9;
+  margin-bottom: 2rem;
+}
+
+.hero .right{
+  margin-top: -7rem;
+}
+
+section{
+  padding: 6rem 0;
+
+}
+section .about h1{
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+section.about h1 span{
+  color: var(--primary);
+}
+
+section.about h3{
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 400;
+}
+
+section.about p{
+  font-family: 'Lato', sans-serif;
+  color: var(--ternary);
+  line-height: 1.9;
+  margin-bottom: 2rem;
+}
+
+section.about .social{
+  display: flex;
+}
+
+section.about .social a{
+  background: var(--light);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin-right: 0.6rem;
+  transition: all .3s ease;
+}
+
+section.about .social a img{
+  width: 100%;
+  height: 100%;
+  padding: 0.5rem;
+}
+
+section.about .social a:hover{
+  background: var(--primary);
+}
+
+.res_head {
+  padding-top: 50px;
+  color: rgb(55, 58, 61);
+  text-align: center;
+  font-size: 40px;
+}
+
+.back {
+  width: 100%;
+  height: 950px;
+  background-color: #F7F7F7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.box {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 150px;
+  justify-content: space-between;
+  background-color: #F7F7F7;
+}
+
+.item {
+  margin: 20px;
+}
+
+div.resume1 .res_head{
+  font-size: 4rem;
+  font-weight: 100;
+  line-height: 1.2;
+  margin-bottom: 2rem;
+  /* text-align: center; */
+}
+
+div.resume1 .class{
+  text-align: center;
+}
+
+div.resume1 .exp h1{
+  margin-left: 50px;
+  color: var(--pure);
+  font-size: 30px;
+}
+
+div.resume1 .exp h3{
+  margin-left: 50px;
+  color: var(--ternary);
+}
+
+div.resume1 .exp p{
+  margin-left: 50px;
+  color: var(--ternary);
+}
+
+div.resume1 .edu h1{
+  margin-left: 50px;
+  color: var(--pure);
+  font-size: 30px;
+}
+
+div.resume1 .edu h3{
+  margin-left: 50px;
+  color: var(--ternary);
+}
+
+div.resume1 .edu p{
+  margin-left: 50px;
+  color: var(--ternary);
+}
+div.stay-in-touch{
+  display: flex;
+  height: 650px;
+  width: 50%;
+  padding-top: 50px;
+  padding-bottom: -5px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+div.stay-in-touch .card1{
+  font-family: 'Lato', sans-serif;
+
+}
+
+.card {
+  width: 500px;
+  height: 550px;
+  padding: 30px 90px 90px 90px;
+  margin: 5px 50px 50px 100px;
+  border: 3px solid var(--light);
+  border-radius: 20px;
+  background: var(--ternary);
+}
+
+.card h2 {
+  color: var(--light);
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+.card .row {
+  width: 450px;
+  display: inline-block;
+}
+
+.card .row .col {
+  width: 400px;
+  margin: 30px 20px 40px 0;
+  transition: 0.5s;
+}
+
+.card .row .form-group {
+  width: 100%;
+  height: 40px;
+}
+
+.card .row .form-group input,
+.card .row .form-group textarea {
+  width: 90%;
+  height: 100%;
+  background: transparent;
+  outline: none;
+  font-size: 20px;
+  padding: 20px 0 10px 20px;
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  color: #ffffff;
+  border-radius: 10px;
+  
+}
+
+.card .row .form-group input:focus,
+.card .row .form-group textarea:focus {
+  border: 4px solid var(--light);
+  transition: all 0.5s;
+}
+
+.card .row input[type="submit"] {
+  border: 5px solid rgba(0, 0, 0, 0.3);
+  padding: 10px;
+  height: 90%;
+  width: 50%;
+  cursor: pointer;
+  outline: none;
+  background: transparent;
+  text-transform: uppercase;
+  color: #ffffff;
+  line-height: 40px;
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 20px;
+  transition: all 0.4s;
+}
+
+.card .row input[type="submit"]:hover {
+  border: 5px solid var(--primary);
+  transition: all 0.4s;
+}
+
+
+section .contact h1{
+  margin-bottom: 1rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+section.contact h1 span{
+  color: var(--primary);
+}
+div.stay-in-touch .connect {
+  background: var(--ternary);
+  font-family: 'Lato', sans-serif;
+  text-align: center;
+  width: 600px;
+  height: 550px;
+  padding: 30px 90px 90px 90px;
+  margin: 5px 50px 50px 100px;
+  border: 3px solid var(--light);
+  border-radius: 20px;
+}
+
+div.stay-in-touch .connect h2{
+  color: var(--light);
+  font-size: 30px;
+  text-transform: uppercase;
+  width: 300px;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  display: inline-block;
+}
+
+div.stay-in-touch .connect h3{
+  color: var(--light);
+  font-size: 20px;
+  text-transform: uppercase;
+  
+}
+
+div.stay-in-touch .connect p{
+  color: var(--light);
+  font-size: 20px;
+  margin: 0px;
+}
